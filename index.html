@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora J3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 > Calculadora J3 </h1> <br>
+    <div id="calculator">
+  <!-- PARTE DO DISPLAY > TELA DA CALCULADORA -->
+      <div id="display">
+        <div id="last-calc">
+        </div>
+        <div id="result">
+          <img src="./assets/equals.svg" alt="sinal de igual" />
+        </div>
+      </div>
+  <!-- AQUI É A PARTE DO TECLADO PARA BAIXO!-->
+      <div id="keyboard">
+        <button class="secondary" id="limparDisplay"> CE </button>
+        <button id="limparCalculo"> C </button>
+        <button id="backspace"> « </button>
+<!-- --------------------------------------------------- -->
+        <button class="tertiary" id="operadorDividir">
+          /
+        </button>
+<!-- --------------------------------------------------- -->
+        <button id="tecla7">7</button>
+        <button id="tecla8">8</button>
+        <button id="tecla9">9</button>
+<!-- --------------------------------------------------- -->
+        <button class="tertiary" id="operadorDividir">
+          *
+        </button>
+<!-- --------------------------------------------------- -->
+        <button id="tecla4">4</button>
+        <button id="tecla5">5</button>
+        <button id="tecla6">6</button>
+        <button class="tertiary" id="operadorSubtrair">
+          -
+        </button>
+<!-- --------------------------------------------------- -->
+        <button id="tecla1">1</button>
+        <button id="tecla2">2</button>
+        <button id="tecla3">3</button>
+<!-- --------------------------------------------------- -->
+        <button class="tertiary" id="operadorAdicionar">
+          +
+        </button>
+<!-- --------------------------------------------------- -->
+        <button id="inverter">
+          ±
+        </button>
+<!-- --------------------------------------------------- -->
+        <button id="tecla0">0</button>
+        <button id="decimal">,</button>
+
+        <button class="quartiary" id="igual">
+          =
+        </button>
+        
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="index.js"></script>
